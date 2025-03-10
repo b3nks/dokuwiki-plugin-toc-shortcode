@@ -1,7 +1,7 @@
-base   toc-shortcode
+base   tocshortcode
 author benks
 email  dokuwiki@benks.io
 date   2025-03-10
-name   toc-shortcode
+name   tocshortcode
 desc   Ersetzt {inhaltsverzeichnis} durch ein nspages-Tag
 url    https://www.dokuwiki.org/plugin:toc-shortcode
