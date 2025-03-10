@@ -11,7 +11,7 @@ class action_plugin_tocshortcode extends DokuWiki_Action_Plugin {
         // Dein gewünschter Ersatztext
         $replacement = '<nspages -sidebar -hideNoPages -hideNoSubns -simpleList -h1 -subns -exclude:[start sidebar] -textNS="" -textPages="">';
 
-        // Ersetze <inhalt> durch den gewünschten Text
+        // Ersetze {inhaltsverzeichnis} durch deinen gewünschten Shorcode
         $event->data = str_replace('{inhaltsverzeichnis}', $replacement, $event->data);
     }
 }
